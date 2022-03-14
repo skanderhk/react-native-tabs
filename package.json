@@ -1,8 +1,8 @@
 {
-  "name": "react-native-tabs",
-  "version": "1.0.0",
+  "name": "react-native-tabs-view",
+  "version": "1.1.0",
   "description": "A cross-platform Tabs component for React Native.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/skanderhk/react-native-tabs/issues"
   },
-  "homepage": "https://github.com/skanderhk/react-native-tabs#readme"
+  "homepage": "https://github.com/skanderhk/react-native-tabs#readme",
+  "dependencies": {
+    "react-native-reanimated": "^2.4.1"
+  }
 }
